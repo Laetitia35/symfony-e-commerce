@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon panier - La Boutique Française{% endblock %}
+
+{% block content %}
+    <h1>Mon panier</h1>
+    Retrouver l'ensemble des produits que vous avez ajouté dans votre panier.
+    <hr>
+    MON PANIER
+    {{ dump(cart) }}
+    {% endblock %}
